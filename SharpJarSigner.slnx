@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SharpJarSigner.csproj" Id="4b4af22c-a1d5-43cd-87f5-086d0e1e66bc">
+    <BuildType Project="Release" />
+  </Project>
+</Solution>
