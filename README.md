@@ -15,8 +15,8 @@ SharpJarSigner.exe sign <certificate.pem> <private-key.pk8> <input-file> <signer
 ```
 | Parameter | Description |
 |---|---|
-| `<certificate.pem>` | Certificate file path |
-| `<private-key.pk8>` | Private key file path |
+| `<certificate.pem>` | Certificate file path (PEM) |
+| `<private-key.pk8>` | Private key file path (Unencrypted DER) |
 | `<input_file>` | Path to the Jar or APK file to be signed |
 | `<signer-name>` | Signer name |
 | `-f` | Optional flag to overwrite an existing output file |
