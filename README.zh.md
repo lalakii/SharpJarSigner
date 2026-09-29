@@ -16,7 +16,7 @@ SharpJarSigner.exe sign <certificate.pem> <private-key.pk8> <input-file> <signer
 | Parameter | Description |
 |---|---|
 | `<certificate.pem>` | X509 证书路径 (PEM) |
-| `<private-key.pk8>` | 未加密的私钥路径 (未加密的DER) |
+| `<private-key.pk8>` | 未加密的私钥路径 (DER) |
 | `<input_file>` | 要签名 Jar 或 APK 路径 |
 | `<signer-name>` | 签名者名称 |
 | `-f` | 如果输出的文件存在强制覆盖 (可选) |
